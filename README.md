@@ -12,6 +12,8 @@ $ /opt/td-agent/embedded/bin/fluent-gem install fluent-plugin-s3
 
 ### Customize your configuration
 Ref: https://github.com/fluent/fluent-plugin-s3 or your can use the example as following:
+* **format**: supported formats are "apache_error", "apache2", "syslog", "json", "tsv", "ltsv", "csv", "nginx" and "none".
+* **store_as**: you can choose save file on S3 as gzip/text/json
 ```
 <source>
   @type tail
