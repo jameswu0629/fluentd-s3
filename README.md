@@ -40,3 +40,8 @@ Ref: https://github.com/fluent/fluent-plugin-s3 or your can use the example as f
   store_as json
 </match>
 ```
+
+### Start agent
+```
+sudo service td-agent start
+```
